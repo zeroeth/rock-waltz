@@ -13,3 +13,4 @@
 - wireframe version
 - discrete rotations (like a sprite based game)
 - better name?
+- pixel perfect scaling
