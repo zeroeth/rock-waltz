@@ -9,3 +9,7 @@
 - limited battery
 - (or x-wing balancer for them with weapon fire style)
 - pushback charge weapon
+- 2x shader of vector shapes (vs accurate rotation of pixel sprites)
+- wireframe version
+- discrete rotations (like a sprite based game)
+- better name?
