@@ -15,9 +15,9 @@ public class MoveAround : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
-	
+
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -38,9 +38,9 @@ public class MoveAround : MonoBehaviour {
 
 		// Fire
 		if (Input.GetButton("Jump") && Time.time > next_fire) {
-            next_fire = Time.time + fire_rate;
+			next_fire = Time.time + fire_rate;
 			GameObject beam = (GameObject) Instantiate(projectile, transform.position, transform.rotation);
-			
+
 			// Combine base velocity with parent velocity
 			beam.rigidbody2D.velocity = rigidbody2D.velocity + (Vector2)transform.up * bullet_velocity;
 		}

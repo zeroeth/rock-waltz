@@ -14,7 +14,7 @@ public class ConstantRotate : MonoBehaviour {
 		rigidbody2D.angularVelocity = rotation_speed;
 		rigidbody2D.AddForce (transform.up * (Random.Range(5.0f, 100.0f)));
 	}
-	
+
 
 	// Update is called once per frame
 	void FixedUpdate () {
